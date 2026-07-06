@@ -9,8 +9,10 @@ I decided to create them by myself with the help of LLM Coding Agent.
 
 | `<cask>` | Description  |
 |-------------|--------------|
-| [cat-switch](https://github.com/cat-switch.github.io)  | Categorical Application Switcher of running apps for developers by reducing the cost of your brain's context switch. You NO MORE be at a loss in your parallel tasks like as you are working on a analog desk. This can be main app switcher to be used with cmd+tab (switch by recency) and Spotlight (launching a app). |
+| [cat-switch](https://github.com/aki-s/CatSwitch-dist/blob/main/README.md)  | Categorical Application Switcher of running apps for developers by reducing the cost of your brain's context switch. You NO MORE be at a loss in your parallel tasks like as you are working on a analog desk. This can be main app switcher to be used with cmd+tab (switch by recency) and Spotlight (launching a app). |
+<!--
 | [win-pin]() ToBeDisclosed    | Pin targeted application windows foremost by best effort. Useful when you want to keep focus on a meeting video while doing your other works, or when you want to bring a window foremost among several windows in a app. |
+-->
 
 ## How to install and run these Cask
 

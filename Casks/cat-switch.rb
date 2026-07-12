@@ -4,15 +4,15 @@ cask "cat-switch" do
   # :ventura and above is supported.
   depends_on macos: :ventura
 
-  version "0.1.5"
+  version "0.2.0-rc.1"
 
   on_macos do
     on_intel do
-      sha256 "dfb714386e33a7f6a7b96e0831e6ad11345a4137e99278a9822575d1d12e4a4f"
+      sha256 "6ef43318bec3cfa27cf57d86ebf9b0bbc37d75c3764ff8db0e724b943acd668f"
       url "https://github.com/aki-s/CatSwitch-dist/releases/download/#{version}/CatSwitch_#{version}_x86_64.zip"
     end
     on_arm do
-      sha256 "fedf371c5ba8f696819bf6179bc81c879810aae406d8c63add434199969eaf10"
+      sha256 "fafdf067c8cb3efce0f10c000fd4bbe9cfec9e68bbbb43354763682ba82d670c"
       url "https://github.com/aki-s/CatSwitch-dist/releases/download/#{version}/CatSwitch_#{version}_arm64.zip"
     end
   end
@@ -25,7 +25,7 @@ cask "cat-switch" do
     skip "Auto-generated on release."
   end
 
-  binary "cat-switch"
+  binary "CatSwitch.app/Contents/MacOS/CatSwitch"
 
   postflight do
     if OS.mac?

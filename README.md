@@ -24,7 +24,8 @@ brew trust aki-s/tap
 brew install aki-s/tap/<$name> # e.g. replace $name with `cat-switch`
 ```
 
-Lift the quarantine, because I'm not a member of Apple Developer Program.
+I'm not a member of Apple Developer Program.
+If my Casks are in quarantine, please run the following.
 
 ```sh
 xattr -dr com.apple.quarantine <path/to/$name.app>
@@ -51,4 +52,5 @@ While it may be difficult to address every inquiry, I sincerely appreciate your 
 
 ## Copyrights
 
-I am the copyright holder of all contents distributed here.
+I (https://github.com/aki-s) am the copyright holder of all contents distributed here.
+

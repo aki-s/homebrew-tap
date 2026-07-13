@@ -8,11 +8,11 @@ cask "cat-switch" do
 
   on_macos do
     on_intel do
-      sha256 "e40686004b82bf8f1a8dbce8c3a7c60c66cd095e260f17e36ded72768d5dab3a"
+      sha256 "01095515f959a9abfebbe73017245604cf9f6ce512b0a6caffb05e34ce31ae6e"
       url "https://github.com/aki-s/CatSwitch-dist/releases/download/#{version}/CatSwitch_#{version}_x86_64.zip"
     end
     on_arm do
-      sha256 "d464e0783e1d88c1890feed56aa1aac4fbd475081d4f654e4f93687c42de06c9"
+      sha256 "ac0243f042edcc396ea37ae655a74505ed80969e6feb796257c1a4ae1bf76394"
       url "https://github.com/aki-s/CatSwitch-dist/releases/download/#{version}/CatSwitch_#{version}_arm64.zip"
     end
   end

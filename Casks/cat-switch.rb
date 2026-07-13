@@ -5,15 +5,15 @@ cask "cat-switch" do
   depends_on macos: :sonoma
   binary "#{appdir}/CatSwitch.app/Contents/MacOS/CatSwitch", target: "cat-switch"
 
-  version "0.2.0-rc.1"
+  version "0.2.0"
 
   on_macos do
     on_intel do
-      sha256 "08ab9cbb3a7957785c8533f209ae6a1e5c889701d6839b81cc04a19b69dba79e"
+      sha256 "ebbf3d1d0965ef6ea8cc439b653e1c42cdadf98ff0f05e25a0f9bd817e6830a1"
       url "https://github.com/aki-s/CatSwitch-dist/releases/download/#{version}/CatSwitch_#{version}_x86_64.zip"
     end
     on_arm do
-      sha256 "3fa301bdb67cf60e12af3ba15b73fe589457d0a0cbb2c9709ca5103c3be30972"
+      sha256 "29d0e5d06cc56c1129d1c50c1f30796af6dbbe49afb745ed6e715058058435e9"
       url "https://github.com/aki-s/CatSwitch-dist/releases/download/#{version}/CatSwitch_#{version}_arm64.zip"
     end
   end

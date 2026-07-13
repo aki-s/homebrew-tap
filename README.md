@@ -21,7 +21,7 @@ As of Homebrew 6.0.6.
 ```sh
 brew tap aki-s/tap
 brew trust aki-s/tap
-brew install aki-s/tap/<$name> # e.g. replace $name wwith `cat-switch`
+brew install aki-s/tap/<$name> # e.g. replace $name with `cat-switch`
 ```
 
 Lift the quarantine, because I'm not a member of Apple Developer Program.

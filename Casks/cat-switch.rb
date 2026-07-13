@@ -4,15 +4,15 @@ cask "cat-switch" do
   # Only :sonoma(.14) and above is supported.
   depends_on macos: :sonoma
 
-  version "0.2.0-rc.2"
+  version "0.2.0-rc.3"
 
   on_macos do
     on_intel do
-      sha256 "a3604fde7efeb09f9bdcd6cbad4b77d43ffa3d83b744c3d190c47047db29cf61"
+      sha256 "9d1970221546a7085a7c5e5ac400eba5f965af2f96ae74aa4c571e29d91deaac"
       url "https://github.com/aki-s/CatSwitch-dist/releases/download/#{version}/CatSwitch_#{version}_x86_64.zip"
     end
     on_arm do
-      sha256 "24d66a9c0c8a08c941e08c0ef29451ae22b33b4b05379450ef3f882b9843e9ba"
+      sha256 "a29e40ca8c8510fcb3c86948d5cff636cc4bf393ab5b39db11704a1028b0ad73"
       url "https://github.com/aki-s/CatSwitch-dist/releases/download/#{version}/CatSwitch_#{version}_arm64.zip"
     end
   end
@@ -25,7 +25,7 @@ cask "cat-switch" do
     skip "Auto-generated on release."
   end
 
-  binary "CatSwitch.app/MacOS/CatSwitch"
+  binary "CatSwitch.app/Contents/MacOS/CatSwitch"
 
   postflight do
     if OS.mac?

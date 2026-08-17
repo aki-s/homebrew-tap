@@ -7,12 +7,10 @@ I decided to create them by myself with the help of LLM Coding Agent.
 
 ## My private Cask of Homebrew
 
-| `<cask>` | Description  |
-|-------------|--------------|
-| [cat-switch](https://github.com/aki-s/CatSwitch-dist/blob/main/README.md)  | Categorical Application Switcher of running apps for developers by reducing the cost of your brain's context switch. You NO MORE be at a loss in your parallel tasks like as you are working on a analog desk. This can be main app switcher to be used with cmd+tab (switch by recency) and Spotlight (launching a app). |
-<!--
-| [win-pin]() ToBeDisclosed    | Pin targeted application windows foremost by best effort. Useful when you want to keep focus on a meeting video while doing your other works, or when you want to bring a window foremost among several windows in a app. |
--->
+| `<cask>`                                                                  | Description                                                                                                                                                                                                                                                                                                               |
+|---------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [cat-switch](https://github.com/aki-s/CatSwitch-dist/blob/main/README.md) | Categorical Application Switcher of running apps for developers by reducing the cost of your brain's context switch. You NO MORE be at a loss in your parallel tasks like as you are working on a analog desk. This can be main app switcher to be used with cmd+tab (switch by recency) and Spotlight (launching a app). |
+| [win-pin](https://github.com/aki-s/WinPin/)                               | Best-effort pinning of targeted application windows to the top. Useful for keeping focus on a meeting video while working, or bringing a specific window to the front among multiple windows of an app.                                                                                                                   |
 
 ## How to install and run these Cask
 
@@ -38,11 +36,13 @@ open <path/to/$name.app>
 ## Exemption
 
 1. I declare I never violate your privacy even if my applications are not open sourced.
-These apps uses `System Settings.app > Privacy & Security > {Accessibility, Screen & System Audio Recording}` by its nature.
-I may develop more functions to opt-out using 'System Audio Recording' if I have time and money, but I cannot promise as of now.
+   These apps uses `System Settings.app > Privacy & Security > {Accessibility, Screen & System Audio Recording}` by its
+   nature.
+   I may develop more functions to opt-out using 'System Audio Recording' if I have time and money, but I cannot promise
+   as of now.
 
 2. MacOS and Homebrew are evolving.
-If the procedure depicted above didn't work, ask LLM or search on the internet.
+   If the procedure depicted above didn't work, ask LLM or search on the internet.
 
 ## Contacts
 

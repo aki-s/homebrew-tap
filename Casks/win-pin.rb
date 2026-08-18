@@ -9,11 +9,11 @@ cask "win-pin" do
 
   on_macos do
     on_intel do
-      sha256 "ef2107a0306854007b8c1d37af6b238c8e820c337d13de468ba097a39fca4c1f"
+      sha256 "b8f1fd2fb87c7502a862fcc3b143e088c08b8f8a84390d14c426d556f18b9dc6"
       url "https://github.com/aki-s/WinPin/releases/download/#{version}/WinPin_#{version}_x86_64.zip"
     end
     on_arm do
-      sha256 "a8e3f1e04389544f1725e17a75842562af181dc6fafc499b3e4427ac04b7bb4f"
+      sha256 "9efa58162fcaab253d32aca31e41e5f1617ad533d8d214e5d6b2cfb5cedf7ea1"
       url "https://github.com/aki-s/WinPin/releases/download/#{version}/WinPin_#{version}_arm64.zip"
     end
   end

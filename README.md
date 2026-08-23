@@ -14,7 +14,7 @@ I decided to create them by myself with the help of LLM Coding Agent.
 
 ## How to install and run these Cask
 
-As of Homebrew 6.0.6.
+As of Homebrew 6.0.18.
 
 ```sh
 brew tap aki-s/tap
@@ -36,8 +36,7 @@ open <path/to/$name.app>
 ## Exemption
 
 1. I declare I never violate your privacy even if my applications are not open sourced.
-   These apps uses `System Settings.app > Privacy & Security > {Accessibility, Screen & System Audio Recording}` by its
-   nature.
+   e.g. Some app uses the permission configurable at `System Settings.app > Privacy & Security > {Accessibility, Screen & System Audio Recording}` by its nature.
    I may develop more functions to opt-out using 'System Audio Recording' if I have time and money, but I cannot promise
    as of now.
 
